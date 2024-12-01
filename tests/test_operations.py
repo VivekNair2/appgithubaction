@@ -1,4 +1,6 @@
-from src.mathoperation import add , subtract
+import src
+from src.mathoperation import add,subtract
+
 
 def test_add():
     assert add(2,3)==5
